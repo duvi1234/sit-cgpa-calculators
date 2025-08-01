@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SIT CGPA Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="header-section">
+      <div class="title-section">
+        <h1>SIT CGPA Calculator</h1>
+        <h2 class="department-name">CSE (AI & ML)</h2>
+      </div>
+      <button id="darkModeToggle" class="dark-mode-toggle" title="Toggle Dark Mode">
+        <i class="fa fa-moon"></i>
+      </button>
+    </div>
+    <p>Select your batch and semester to calculate your CGPA.</p>
+
+    <div class="calculation-mode-toggle">
+      <div class="toggle-container">
+        <input type="radio" id="gpaMode" name="calcMode" value="gpa" checked>
+        <input type="radio" id="cgpaMode" name="calcMode" value="cgpa">
+        <label for="gpaMode" class="toggle-label">GPA</label>
+        <label for="cgpaMode" class="toggle-label">CGPA</label>
+        <div class="toggle-slider"></div>
+      </div>
+    </div>
+
+    <form id="cgpaForm">
+      <div class="selection-section">
+        <div class="form-group">
+          <label for="batchSelect">Batch:</label>
+          <select id="batchSelect" required>
+            <option value="">Select Batch</option>
+            <option value="2023-2027">2023-2027</option>
+            <option value="2022-2026">2022-2026</option>
+            <option value="2024-2028">2024-2028</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="semesterSelect">Semester:</label>
+          <select id="semesterSelect" required>
+            <option value="">Select Semester</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="subjects-section" id="gpaSection">
+        <h3>Current Semester Subjects</h3>
+        <div class="subjects-header">
+          <div class="header-cell">Subject Code</div>
+          <div class="header-cell">Subject Name</div>
+          <div class="header-cell">Credits</div>
+          <div class="header-cell">Grade</div>
+        </div>
+        <div id="subjectsContainer">
+          <!-- GPA subjects auto-populated -->
+        </div>
+      </div>
+
+      <div class="completed-semesters-section" id="cgpaSection" style="display: none;">
+        <h3>Overall CGPA Calculation</h3>
+        <div class="cgpa-instructions">
+          <p><i class="fa fa-info-circle"></i> Select your batch and number of semesters to calculate your CGPA.</p>
+        </div>
+        
+        <!-- CGPA Batch and Semester Selection -->
+        <div class="cgpa-selection">
+          <div class="form-group">
+            <label for="cgpaBatchSelect">Batch:</label>
+            <select id="cgpaBatchSelect">
+              <option value="">Select Batch</option>
+              <option value="2023-2027">2023-2027</option>
+              <option value="2022-2026">2022-2026</option>
+              <option value="2024-2028">2024-2028</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="semesterCountSelect">Number of Semesters:</label>
+            <select id="semesterCountSelect">
+              <option value="">Select Semester Count</option>
+              <option value="1">1 Semester</option>
+              <option value="2">2 Semesters</option>
+              <option value="3">3 Semesters</option>
+              <option value="4">4 Semesters</option>
+              <option value="5">5 Semesters</option>
+              <option value="6">6 Semesters</option>
+              <option value="7">7 Semesters</option>
+              <option value="8">8 Semesters</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Semester-wise Subjects Display -->
+        <div class="semester-subjects-section" id="semesterSubjectsSection" style="display: none;">
+          <h4>Semester-wise Subjects</h4>
+          <div class="cgpa-instructions">
+            <p><i class="fa fa-info-circle"></i> Enter grades for each subject. Only subjects with grades O,A+,A,B,B+,C will be included in CGPA calculation.</p>
+          </div>
+          <div id="semesterSubjectsContainer">
+            <!-- Semester subjects will be populated here -->
+          </div>
+        </div>
+
+        <!-- Cleared Arrears Section -->
+        <div class="arrears-section" id="arrearsSection" style="display: none;">
+          <h4>Cleared Arrears</h4>
+          <div class="cgpa-instructions">
+            <p><i class="fa fa-info-circle"></i> Add subjects that you have cleared as arrears. These will be included in your CGPA calculation.</p>
+          </div>
+          <div id="arrearsContainer">
+            <!-- Arrear subjects will be added here -->
+          </div>
+          <button type="button" id="addArrearBtn" class="arrear-btn">
+            <i class="fa fa-plus"></i> Add Cleared Arrear
+          </button>
+        </div>
+
+        <div class="cgpa-note">
+          <p><i class="fa fa-lightbulb"></i> <strong>How it works:</strong> Enter grades for all subjects up to the selected semester. CGPA = Total Grade Points / Total Credits.</p>
+        </div>
+      </div>
+
+      <div class="action-buttons">
+        <button type="submit" id="calculateBtn">
+          <i class="fa fa-calculator"></i> Calculate GPA
+        </button>
+      </div>
+      <div id="result" class="result-section"></div>
+    </form>
+  </div>
+
+  <footer id="siteFooter">
+    <div class="footer-content">
+      <span class="footer-icon">💙</span>
+      Made by Durga Devi R | B.E CSE(AI&ML) | 2023 - 2027 | SIT CGPA Calculator
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,6 +1,3 @@
-# sit-cgpa-calculators
-SIT CGPA Calculator is a modern web app for B.E CSE (AI &amp; ML) students at Sethu Institute of Technology. Easily calculate GPA and CGPA by selecting your batch, semester, and grades. Supports arrears, multiple batches, and features a responsive, user-friendly design.
-
 # SIT CGPA Calculator
 
 A modern web application for B.E CSE (AI & ML) students at Sethu Institute of Technology to easily calculate GPA and CGPA by selecting batch, semester, and grades. Supports arrears, multiple batches, and features a responsive, user-friendly design with dark mode support.
@@ -118,6 +115,12 @@ sit-cgpa-calculator/
 B.E CSE(AI&ML), 2023 - 2027  
 Sethu Institute of Technology
 
+### **Contact**
+- **GitHub**: [Your GitHub Profile]
+- **Email**: [Your Email]
+- **LinkedIn**: [Your LinkedIn]
+
+---
 
 ## 📄 License
 
