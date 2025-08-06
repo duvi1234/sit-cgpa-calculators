@@ -630,7 +630,7 @@ function calculateGPA() {
     if (totalCredits === 0) {
         result.innerHTML = "<p>Please enter at least one valid subject.</p>";
     } else {
-        const gpa = (totalPoints / totalCredits).toFixed(2);
+        const gpa = (totalPoints / totalCredits).toFixed(3);
         
         result.innerHTML = `
             <div class="gpa-result">
@@ -699,7 +699,7 @@ function calculateCGPA() {
         return;
     }
 
-    const cgpa = (totalPoints / totalCredits).toFixed(2);
+    const cgpa = (totalPoints / totalCredits).toFixed(3);
     document.getElementById('result').innerHTML = `
         <div class="cgpa-result">
             <h3>CGPA</h3>
@@ -861,3 +861,4 @@ function initializeCalculationModeToggle() {
     // Initialize mode
     updateMode();
 }
+
