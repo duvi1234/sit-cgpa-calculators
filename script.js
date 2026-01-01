@@ -19,81 +19,6 @@ const honorsSubjects = {
 // Department data structure
 const departmentData = {
     "CSE (AI & ML)": {
-        "2023-2027": {
-            "Semester I": [
-                { "name": "Induction Programme", "credit": 0, "code": "R21UGM131" },
-                { "name": "Matrix and Calculus", "credit": 4, "code": "R21UMA102" },
-                { "name": "Physics for Information Science", "credit": 3, "code": "R21UPH103" },
-                { "name": "Problem Solving and C programming", "credit": 3, "code": "R21UCS107" },
-                { "name": "Principles of Electrical Engineering", "credit": 3, "code": "R21UEE125" },
-                { "name": "English for Technical Communication", "credit": 2, "code": "R21UEN101" },
-                { "name": "Problem Solving And C programming Laboratory", "credit": 1, "code": "R21UCS111" },
-                { "name": "Electrical Engineering Laboratory", "credit": 1, "code": "R21UEE128" },
-                { "name": "Physics Laboratory", "credit": 1, "code": "R21UPH113" },
-                { "name": "Heritage of Tamils", "credit": 1, "code": "R21UGT140" }
-            ],
-            "Semester II": [
-                { "name": "Biology for Engineers", "credit": 0, "code": "R21UAC231" },
-                { "name": "Applied Chemistry for Engineers", "credit": 3, "code": "R21UCY205" },
-                { "name": "Fourier Series, Partial Differential Equation and Complex Analysis", "credit": 4, "code": "R21UMA211" },
-                { "name": "Programming Fundamentals using Python", "credit": 3, "code": "R21UIT206" },
-                { "name": "Communication Skills for Professionals (Integrated Course)", "credit": 1.5, "code": "R21UEN201" },
-                { "name": "Applied Chemistry Laboratory", "credit": 1, "code": "R21UCY213" },
-                { "name": "Programming Fundamentals using Python Laboratory", "credit": 1.5, "code": "R21UIT207" },
-                { "name": "Tamils and Technology", "credit": 1, "code": "R21UGT241" },
-                { "name": "Digital Logic and Design", "credit": 3, "code": "R21UAD205" }
-            ],
-            "Semester III": [
-                { "name": "Computational Statistics and Numerical Methods", "credit": 4, "code": "R21UMA329" },
-                { "name": "Database system Design Laboratory", "credit": 1, "code": "R21UCD308" },
-                { "name": "Object Oriented Programming using C++ Laboratory", "credit": 1, "code": "R21UCS309" },
-                { "name": "Data Structures Laboratory", "credit": 1, "code": "R21UIT307" },
-                { "name": "Environmental Science", "credit": 0, "code": "R21UGM331" },
-                { "name": "Database system Design", "credit": 3, "code": "R21UCD306" },
-                { "name": "Object Oriented Programming using C++", "credit": 3, "code": "R21UCS303" },
-                { "name": "Computer Organization", "credit": 3, "code": "R21UCS305" },
-                { "name": "Data Structures", "credit": 3, "code": "R21UIT302" },
-                { "name": "Principles of Operating System", "credit": 3, "code": "R21UIT304" }
-            ],
-            "Semester IV": [
-                { "name": "Transforms and Discrete Mathematics", "credit": 4, "code": "R21UMA421" },
-                { "name": "Introduction to Mobile Application Development", "credit": 1, "code": "R21UAM861" },
-                { "name": "Artificial Intelligence Laboratory", "credit": 1, "code": "R21UAD408" },
-                { "name": "Machine Learning Laboratory", "credit": 1, "code": "R21UAM407" },
-                { "name": "Java Programming Laboratory", "credit": 1, "code": "R21UIT408" },
-                { "name": "Gender Equality", "credit": 0, "code": "R21UGM431" },
-                { "name": "Artificial Intelligence", "credit": 3, "code": "R21UAD402" },
-                { "name": "Principles of Machine Learning", "credit": 3, "code": "R21UAM405" },
-                { "name": "Computer Communication Networks", "credit": 3, "code": "R21UAM406" },
-                { "name": "Algorithm Analysis", "credit": 3, "code": "R21UCS403" },
-                { "name": "Java Programming", "credit": 3, "code": "R21UIT404" }
-            ]
-        },
-        "2024-2028": {
-            "Semester I": [
-                { "name": "Induction Programme", "credit": 0, "code": "R21UGM131" },
-                { "name": "Matrix and Calculus", "credit": 4, "code": "R21UMA102" },
-                { "name": "Physics for Information Science", "credit": 3, "code": "R21UPH103" },
-                { "name": "Problem Solving and C programming", "credit": 3, "code": "R21UCS107" },
-                { "name": "Principles of Electrical Engineering", "credit": 3, "code": "R21UEE125" },
-                { "name": "English for Technical Communication", "credit": 2, "code": "R21UEN101" },
-                { "name": "Problem Solving And C programming Laboratory", "credit": 1, "code": "R21UCS111" },
-                { "name": "Electrical Engineering Laboratory", "credit": 1, "code": "R21UEE128" },
-                { "name": "Physics Laboratory", "credit": 1, "code": "R21UPH113" },
-                { "name": "Heritage of Tamils", "credit": 1, "code": "R21UGT140" }
-            ],
-            "Semester II": [
-                { "name": "Biology for Engineers", "credit": 0, "code": "R21UAC231" },
-                { "name": "Applied Chemistry for Engineers", "credit": 3, "code": "R21UCY205" },
-                { "name": "Fourier Series, Partial Differential Equation and Complex Analysis", "credit": 4, "code": "R21UMA211" },
-                { "name": "Programming Fundamentals using Python", "credit": 3, "code": "R21UIT206" },
-                { "name": "Communication Skills for Professionals (Integrated Course)", "credit": 1.5, "code": "R21UEN201" },
-                { "name": "Applied Chemistry Laboratory", "credit": 1, "code": "R21UCY213" },
-                { "name": "Programming Fundamentals using Python Laboratory", "credit": 1.5, "code": "R21UIT207" },
-                { "name": "Tamils and Technology", "credit": 1, "code": "R21UGT241" },
-                { "name": "Digital Logic and Design", "credit": 3, "code": "R21UAD205" }
-            ]
-        },
         "2022-2026": {
             "Semester I": [
                 { "name": "English for Technical Communication", "credit": 2, "code": "21UEN101" },
@@ -169,9 +94,137 @@ const departmentData = {
                 { "name": "Drone Technology Laboratory", "credit": 1, "code": "21UAM608" },
                 { "name": "GPU Programming", "credit": 1, "code": "21UAM863" },
                 { "name": "Open elective", "credit": 3, "code": "-" }
+            ],
+            "Semester VII": [
+                { "name": "Project Management and Finance", "credit": 4, "code": "21UME701" },
+                { "name": "Natural Language Processing", "credit": 3, "code": "21UAD402" },
+                { "name": "Big Data Analytics(P.E - IV)", "credit": 3, "code": "21UITV108" },
+                { "name": "Neural Networks and Deep Learning(P.E - V)", "credit": 3, "code": "21ITV103" },
+                { "name": "Open Elective III / MDP", "credit": 3, "code": "-" },
+                { "name": "UI and UX Design", "credit": 3, "code": "21CSV204" },
+                { "name": "Web Application Security", "credit": 2, "code": "21CSV206" },
+                { "name": "Natural Language Processing Laboratory", "credit": 1, "code": "21UAD708" },
+                { "name": "Internship", "credit": 1, "code": "21UAM735" }
             ]
-        }
+        },
+        "2023-2027": {
+            "Semester I": [
+                { "name": "Induction Programme", "credit": 0, "code": "R21UGM131" },
+                { "name": "Matrix and Calculus", "credit": 4, "code": "R21UMA102" },
+                { "name": "Physics for Information Science", "credit": 3, "code": "R21UPH103" },
+                { "name": "Problem Solving and C programming", "credit": 3, "code": "R21UCS107" },
+                { "name": "Principles of Electrical Engineering", "credit": 3, "code": "R21UEE125" },
+                { "name": "English for Technical Communication", "credit": 2, "code": "R21UEN101" },
+                { "name": "Problem Solving And C programming Laboratory", "credit": 1, "code": "R21UCS111" },
+                { "name": "Electrical Engineering Laboratory", "credit": 1, "code": "R21UEE128" },
+                { "name": "Physics Laboratory", "credit": 1, "code": "R21UPH113" },
+                { "name": "Heritage of Tamils", "credit": 1, "code": "R21UGT140" }
+            ],
+            "Semester II": [
+                { "name": "Biology for Engineers", "credit": 0, "code": "R21UAC231" },
+                { "name": "Applied Chemistry for Engineers", "credit": 3, "code": "R21UCY205" },
+                { "name": "Fourier Series, Partial Differential Equation and Complex Analysis", "credit": 4, "code": "R21UMA211" },
+                { "name": "Programming Fundamentals using Python", "credit": 3, "code": "R21UIT206" },
+                { "name": "Communication Skills for Professionals (Integrated Course)", "credit": 1.5, "code": "R21UEN201" },
+                { "name": "Applied Chemistry Laboratory", "credit": 1, "code": "R21UCY213" },
+                { "name": "Programming Fundamentals using Python Laboratory", "credit": 1.5, "code": "R21UIT207" },
+                { "name": "Tamils and Technology", "credit": 1, "code": "R21UGT241" },
+                { "name": "Digital Logic and Design", "credit": 3, "code": "R21UAD205" }
+            ],
+            "Semester III": [
+                { "name": "Computational Statistics and Numerical Methods", "credit": 4, "code": "R21UMA329" },
+                { "name": "Database system Design Laboratory", "credit": 1, "code": "R21UCD308" },
+                { "name": "Object Oriented Programming using C++ Laboratory", "credit": 1, "code": "R21UCS309" },
+                { "name": "Data Structures Laboratory", "credit": 1, "code": "R21UIT307" },
+                { "name": "Environmental Science", "credit": 0, "code": "R21UGM331" },
+                { "name": "Database system Design", "credit": 3, "code": "R21UCD306" },
+                { "name": "Object Oriented Programming using C++", "credit": 3, "code": "R21UCS303" },
+                { "name": "Computer Organization", "credit": 3, "code": "R21UCS305" },
+                { "name": "Data Structures", "credit": 3, "code": "R21UIT302" },
+                { "name": "Principles of Operating System", "credit": 3, "code": "R21UIT304" }
+            ],
+            "Semester IV": [
+                { "name": "Transforms and Discrete Mathematics", "credit": 4, "code": "R21UMA421" },
+                { "name": "Introduction to Mobile Application Development", "credit": 1, "code": "R21UAM861" },
+                { "name": "Artificial Intelligence Laboratory", "credit": 1, "code": "R21UAD408" },
+                { "name": "Machine Learning Laboratory", "credit": 1, "code": "R21UAM407" },
+                { "name": "Java Programming Laboratory", "credit": 1, "code": "R21UIT408" },
+                { "name": "Gender Equality", "credit": 0, "code": "R21UGM431" },
+                { "name": "Artificial Intelligence", "credit": 3, "code": "R21UAD402" },
+                { "name": "Principles of Machine Learning", "credit": 3, "code": "R21UAM405" },
+                { "name": "Computer Communication Networks", "credit": 3, "code": "R21UAM406" },
+                { "name": "Algorithm Analysis", "credit": 3, "code": "R21UCS403" },
+                { "name": "Java Programming", "credit": 3, "code": "R21UIT404" }
+            ],
+            "Semester V": [
+                {"name": "Introduction to Neural Networks and Deep Learning Techniques", "credit": 3, "code": "R21UAM501" },
+                { "name": "Introduction to Cryptography and Cyber Security", "credit": 3, "code": "R21UAM502" },
+                { "name": "Theory of Computation", "credit": 4, "code": "R21UCS503" },
+                { "name": "Building Internet of Things", "credit": 3, "code": "R21UAM504" },
+                { "name": "Digital Marketing(P.E - I)", "credit": 3, "code": "R21CSV505" },
+                { "name": "Universal Human Values - II", "credit": 3, "code": "R21UGM535" },
+                { "name": "Open Elective - I", "credit": 3, "code": "-" },
+                { "name": "Reasoning and Aptitude", "credit": 1, "code": "R21UGS531" },
+                { "name": "Creative Thinking and Innovation", "credit": 1, "code": "R21UAM507" },
+                { "name": "Building Internet of Things Laboratory", "credit": 1, "code": "R21UAM508" },
+                { "name": "Neural Networks and Deep Learning Laboratory", "credit": 1, "code": "R21UAM509" },
+                { "name": "Soft skills Laboratory", "credit": 1, "code": "R21UGS532" },
+                { "name": "AI for Game Programming", "credit": 1, "code": "R21UAM862" }
+            ]       
+        },
+        "2024-2028": {
+            "Semester I": [
+                { "name": "Induction Programme", "credit": 0, "code": "R21UGM131" },
+                { "name": "Matrix and Calculus", "credit": 4, "code": "R21UMA102" },
+                { "name": "Physics for Information Science", "credit": 3, "code": "R21UPH103" },
+                { "name": "Problem Solving and C programming", "credit": 3, "code": "R21UCS107" },
+                { "name": "Principles of Electrical Engineering", "credit": 3, "code": "R21UEE125" },
+                { "name": "English for Technical Communication", "credit": 2, "code": "R21UEN101" },
+                { "name": "Problem Solving And C programming Laboratory", "credit": 1, "code": "R21UCS111" },
+                { "name": "Electrical Engineering Laboratory", "credit": 1, "code": "R21UEE128" },
+                { "name": "Physics Laboratory", "credit": 1, "code": "R21UPH113" },
+                { "name": "Heritage of Tamils", "credit": 1, "code": "R21UGT140" }
+            ],
+            "Semester II": [
+                { "name": "Biology for Engineers", "credit": 0, "code": "R21UAC231" },
+                { "name": "Applied Chemistry for Engineers", "credit": 3, "code": "R21UCY205" },
+                { "name": "Fourier Series, Partial Differential Equation and Complex Analysis", "credit": 4, "code": "R21UMA211" },
+                { "name": "Programming Fundamentals using Python", "credit": 3, "code": "R21UIT206" },
+                { "name": "Communication Skills for Professionals (Integrated Course)", "credit": 1.5, "code": "R21UEN201" },
+                { "name": "Applied Chemistry Laboratory", "credit": 1, "code": "R21UCY213" },
+                { "name": "Programming Fundamentals using Python Laboratory", "credit": 1.5, "code": "R21UIT207" },
+                { "name": "Tamils and Technology", "credit": 1, "code": "R21UGT241" },
+                { "name": "Digital Logic and Design", "credit": 3, "code": "R21UAD205" }
+            ],
+            "Semester III": [
+                { "name": "Computational Statistics and Numerical Methods", "credit": 4, "code": "R21UMA329" },
+                { "name": "Database system Design Laboratory", "credit": 1, "code": "R21UCD308" },
+                { "name": "Object Oriented Programming using C++ Laboratory", "credit": 1, "code": "R21UCS309" },
+                { "name": "Data Structures Laboratory", "credit": 1, "code": "R21UIT307" },
+                { "name": "Environmental Science", "credit": 0, "code": "R21UGM331" },
+                { "name": "Database system Design", "credit": 3, "code": "R21UCD306" },
+                { "name": "Object Oriented Programming using C++", "credit": 3, "code": "R21UCS303" },
+                { "name": "Computer Organization", "credit": 3, "code": "R21UCS305" },
+                { "name": "Data Structures", "credit": 3, "code": "R21UIT302" },
+                { "name": "Principles of Operating System", "credit": 3, "code": "R21UIT304" }
+            ]
+        },
+        "2025-2029": {
+            "Semester I": [
+                { "name": "Induction Programme", "credit": 0, "code": "R21UGM131" },
+                { "name": "Matrix and Calculus", "credit": 4, "code": "R21UMA102" },
+                { "name": "Physics for Information Science", "credit": 3, "code": "R21UPH103" },
+                { "name": "Problem Solving and C programming", "credit": 3, "code": "R21UCS107" },
+                { "name": "Principles of Electrical Engineering", "credit": 3, "code": "R21UEE125" },
+                { "name": "English for Technical Communication", "credit": 2, "code": "R21UEN101" },
+                { "name": "Problem Solving And C programming Laboratory", "credit": 1, "code": "R21UCS111" },
+                { "name": "Electrical Engineering Laboratory", "credit": 1, "code": "R21UEE128" },
+                { "name": "Physics Laboratory", "credit": 1, "code": "R21UPH113" },
+                { "name": "Heritage of Tamils", "credit": 1, "code": "R21UGT140" }
+            ]
+
     }
+}
 };
 
 // Function to populate semester dropdown based on selected batch
