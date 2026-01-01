@@ -116,9 +116,9 @@ B.E CSE(AI&ML), 2023 - 2027
 Sethu Institute of Technology
 
 ### **Contact**
-- **GitHub**: [Your GitHub Profile]
-- **Email**: [Your Email]
-- **LinkedIn**: [Your LinkedIn]
+- **GitHub**: https://github.com/duvi1234
+- **Email**: durgaragupathy97@gmail.com
+- **LinkedIn**: www.linkedin.com/in/durga-devi-r-71660b299
 
 ---
 
@@ -131,5 +131,6 @@ This project is open source and available under the MIT License. Feel free to us
 Contributions are welcome! Please feel free to submit a Pull Request or open an Issue for any bugs or feature requests.
 
 ---
+
 
 **Built with ❤️ for SIT Students** 
