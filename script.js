@@ -170,6 +170,20 @@ const departmentData = {
                 { "name": "Neural Networks and Deep Learning Laboratory", "credit": 1, "code": "R21UAM509" },
                 { "name": "Soft skills Laboratory", "credit": 1, "code": "R21UGS532" },
                 { "name": "AI for Game Programming", "credit": 1, "code": "R21UAM862" }
+            ],
+            "Semester VI": [
+                { "name": "Digital and Mobile Forensics", "credit": 3, "code": "R21ITV402" },
+                { "name": "Interpersonal Skills Development Laboratory", "credit": 1, "code": "R21UGS633" },
+                { "name": "Comprehensive Engineering Aptitude", "credit": 3, "code": "R21UGT651" },
+                { "name": "Crypto currency and Block Chain Technologies", "credit": 3, "code": "R21ITV406" },
+                { "name": "Intelligent Machine Vision", "credit": 3, "code": "R21UAM601" },
+                { "name": "Data and Visual Analytics in AI", "credit": 3, "code": "R21UAM602" },
+                { "name": "Product Development Project", "credit": 4, "code": "R21UAM607" },
+                { "name": "GPU Programming", "credit": 1, "code": "21UAM863" },
+                { "name": "Open elective", "credit": 3, "code": "-" },
+                { "name" : "Generative AI Tools and Techniques", "credit": 3, "code": "R21UAM603" },
+                { "name" : "Generative AI Tools and Techniques Laboratory", "credit": 3, "code": "R21UAM608" }
+
             ]       
         },
         "2024-2028": {
