@@ -254,7 +254,8 @@ function populateSemesters() {
     
     const selectedBatch = batchSelect.value;
     if (selectedBatch && departmentData["CSE (AI & ML)"][selectedBatch]) {
-        const semesters = Object.keys(departmentData["CSE (AI & ML)"][selectedBatch]);
+        const semesterOrder = ["Semester I", "Semester II", "Semester III", "Semester IV", "Semester V", "Semester VI", "Semester VII", "Semester VIII"];
+        const semesters = semesterOrder.filter(semester => departmentData["CSE (AI & ML)"][selectedBatch][semester]);
         semesters.forEach(semester => {
             const option = document.createElement("option");
             option.value = semester;
