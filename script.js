@@ -182,7 +182,7 @@ const departmentData = {
                 { "name": "GPU Programming", "credit": 1, "code": "21UAM863" },
                 { "name": "Open elective", "credit": 3, "code": "-" },
                 { "name" : "Generative AI Tools and Techniques", "credit": 3, "code": "R21UAM603" },
-                { "name" : "Generative AI Tools and Techniques Laboratory", "credit": 3, "code": "R21UAM608" }
+                { "name" : "Generative AI Tools and Techniques Laboratory", "credit": 1, "code": "R21UAM608" }
 
             ]       
         },
